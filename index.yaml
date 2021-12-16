@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  pages:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2021-12-16T10:47:39.339700801Z"
+    dependencies:
+    - name: pages-api
+      repository: http://localhost:8080
+      version: 1.x.x
+    - name: mysql
+      repository: http://localhost:8080
+      version: 1.x.x
+    description: A Helm chart for Pages Application
+    digest: ef4dcd5d2f97402b33809e744d98a8e5032a8a66724ec65550815f7229f229fe
+    name: pages
+    type: application
+    urls:
+    - https://shubhankerism.github.io/pages-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-12-16T10:47:39.337423607Z"
